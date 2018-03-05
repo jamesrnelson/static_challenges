@@ -1,0 +1,20 @@
+h1 {
+  background-color: red;
+  color: white;
+}
+
+.div1 {
+  float: left;
+}
+
+.div2 {
+  float: right;
+  text-align: right;
+}
+
+h2 {
+  background-color: black;
+  color: white;
+  float: right;
+  text-align: right;
+}
