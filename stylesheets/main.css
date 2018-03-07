@@ -5,7 +5,7 @@ body {
   font-weight: normal;
   line-height: 1.6em;
   margin: 0;
-  border: 1px black solid;
+
 }
 
 a {
@@ -20,13 +20,25 @@ a:visited {
   width: 99.5%;
   height: 99.5%;
   margin: auto;
+  padding-bottom: 0;
+  border: 1px black solid;
+  border-bottom: none;
 }
 
 h2 {
   background-color: white;
   color: black;
-  font-size: 14px;
+  font-size: 16px;
+  font-weight: bold;
   margin: 20px 0px 0px 0px;
+}
+
+h3 {
+  background-color: white;
+  color: black;
+  font-size: 24px;
+  font-weight: bold;
+  margin: 15px 0px 0px 40px;
 }
 
 .box-1 {
@@ -69,8 +81,20 @@ h2 {
   box-sizing: border-box;
 }
 
+#main-block p {
+  margin: 10px 20px 10px 40px;
+}
+
 #side-bar {
   float: right;
   width: 25%;
+  box-sizing: border-box;
+}
+
+#bottom-bar {
+  background-color: #383838;
+  color: white;
+  padding: 20px 20px 20px 20px;
+  margin: 3px 1px 0px 1px;
   box-sizing: border-box;
 }
